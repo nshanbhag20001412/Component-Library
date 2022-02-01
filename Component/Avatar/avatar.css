@@ -1,0 +1,30 @@
+
+@import url(/CSS/docs.css);
+
+.avatar{
+    border:none;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--primary);
+    color:var(--off-white);
+    text-align: center;
+    line-height: 6rem;
+    position: relative;
+}
+
+.sm{
+    width:4rem;
+    height:4rem;
+}
+
+.lg{
+    width: 8rem;
+    height:8rem;
+}
+
+
+.avatar-square{
+    color:var(--off-white);
+    border-radius: 5px ;
+}
