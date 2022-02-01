@@ -1,0 +1,79 @@
+@import url(/CSS/docs.css);
+
+
+.btn{
+    font-family: inherit;
+    font-size: inherit;
+    border:none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 9px var(--background);
+    padding:1rem 2rem;
+    background-color: var(--primary);
+    color: var(--off-white);
+    margin:1rem;
+ }
+
+ .green{
+    background-color: var(--success);
+}
+
+.red{
+    background-color: var(--error);
+}
+
+.yellow{
+    background-color:var(--warning);
+}
+
+.blue{
+    background-color:var(--blue);
+}
+
+ .btn-outline{
+     border:0.25rem solid var(--primary);
+     color:var(--primary);
+     background-color: var(--off-white); 
+ }
+
+.btn-outline-red{
+    border:0.25rem solid var(--error);
+    color:var(--error);
+    background-color: var(--off-white); 
+
+}
+
+.btn-outline-green{
+    border:0.25rem solid var(--success);
+    color:var(--success);
+    background-color: var(--off-white); 
+
+}
+
+.btn-outline-yellow{
+    border:0.25rem solid var(--warning);
+    color:var(--warning);
+    background-color: var(--off-white); 
+
+}
+
+.btn-outline-blue{
+    border:0.25rem solid var(--blue);
+    color:var(--blue);
+    background-color: var(--off-white); 
+
+}
+
+.btn-link{
+    cursor: pointer;
+}
+
+.btn-float{
+    border-radius: 50%;
+    padding:1rem 1.5rem;
+}
+
+
+.btn-white{
+    background-color: var(--off-white);
+    color:var(--primary);
+}

@@ -32,6 +32,8 @@ body {
 
 li{
     list-style: none;
+    margin:1rem 0;
+    font-size:1.655rem;
 }
 
 .heading-1,.heading-2,hr{
@@ -46,10 +48,6 @@ p{
     text-align: justify;
 }
 
-li{
-    margin:1rem 0;
-    font-size:1.655rem;
-}
 
 ul{
     margin:0.75rem;
@@ -83,31 +81,10 @@ a {
       text-align: center;
   }
 
-  .hero-buttons{
-      display:inherit;
-      margin:2rem;
-  }
-
-  .hero-buttons button{
-      margin:1rem;
-      font-family: inherit;
-      font-size: inherit;
-      border:none;
-      border-radius: 4px;
-      box-shadow: 0px 4px 9px var(--background);
-      padding:8px 16px;
-  }
-
-  .btn-primary{
-      background-color: var(--primary);
-      color:var(--secondary);
-  }
-
-  .btn-secondary{
-
-    color:var(--primary);
+.hero-buttons{
+    display:inherit;
+    margin:2rem;
 }
-
 
 
 @media screen and (max-width : 640px){
