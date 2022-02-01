@@ -1,0 +1,89 @@
+@import url(/CSS/docs.css);
+@import url(/Component/button/button.css);
+@import url(/Component/Badge/badge.css);
+
+.card{
+    height: max-content;
+    width: 19rem;
+    padding:1rem;
+    background-color: white;
+    border-radius: 2px;
+    gap:1rem;
+    box-shadow:2px 2px 5px grey;
+    margin:1rem 0;
+    position: relative;
+}
+
+.card-horizontal{
+    display: flex;
+   width: 45rem;
+    height: 19rem;
+    flex-wrap: wrap;
+}
+
+.card-horizontal .card-image{
+    width: 17rem;
+    height:inherit;
+
+}
+.card-horizontal .card-body{
+    width: 26rem;
+}
+.card-image{
+    width:inherit;
+    position: relative;
+
+}
+
+.badge-icon{
+    left:-1rem;
+    top:0.25rem;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+.btn-float{
+    position:absolute;
+    right: 0rem;
+    top: -0.5rem;
+    padding:0rem;
+}
+
+.card .btn{
+    margin:1rem 0.25rem;
+    line-height: 1rem;
+}
+
+.card-footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card .footer-buttons{
+    margin-right: auto;
+
+}
+
+.card .footer-icons{
+    display:flex;
+    margin-left: auto;
+}
+
+
+.icon{
+    margin:0.5rem;
+}
+
+.card-body{
+    margin:1rem 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 15rem;
+    text-shadow: 1px 1px var(--off-white);
+    left: 1.5rem;
+    font-size: 1.75rem;
+
+}
