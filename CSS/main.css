@@ -17,6 +17,7 @@
     --secondary:#f8fcfc;
     --text:#656663;
     --background:#767879;
+    --example-bg:#F5F7F9;
 }
 
 html {
@@ -106,7 +107,6 @@ a {
 
     color:var(--primary);
 }
-
 
 
 
