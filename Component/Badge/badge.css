@@ -13,11 +13,11 @@
     position: absolute;
     top: -1rem;
     right: -1rem;
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.55rem;
     height: 1.5rem;
-    width: 1rem;
+    width:fit-content;
     background-color: var(--blue);
-    border-radius: 50%;
+    border-radius: 2px;
     line-height: 1.5rem;
     font-family: 'Mate', serif;
     font-size: 1.5rem;
