@@ -14,6 +14,9 @@
     position: relative;
 }
 
+.card .para{
+    margin:0.75rem 0rem 0.75rem 0rem
+}
 .card-horizontal{
     display: flex;
    width: 45rem;
@@ -27,7 +30,7 @@
 
 }
 .card-horizontal .card-body{
-    width: 26rem;
+    width: 25rem;
 }
 .card-image{
     width:inherit;
