@@ -1,0 +1,26 @@
+@import url(/CSS/docs.css);
+@import url(/Component/Avatar/avatar.css);
+.br-btm{
+    border-bottom: 1px solid var(--primary);
+}
+
+.list-spaced{
+
+    margin-top:1.5rem ;
+    padding-bottom: 1.75rem;
+}
+
+.list-stacked{
+    display:flex;
+    padding:1rem;
+    border-radius: 4px;
+    background-color: var(--primary-ghost);
+
+}
+.list-text{
+    display:flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+
