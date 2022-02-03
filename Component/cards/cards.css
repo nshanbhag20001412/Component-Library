@@ -76,14 +76,28 @@
 }
 
 .card-body{
-    margin:1rem 0;
+    margin:1rem 1rem;
 }
 
-.overlay{
+.on-image{
     position: absolute;
     top: 15rem;
     text-shadow: 1px 1px var(--off-white);
     left: 1.5rem;
     font-size: 1.75rem;
 
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: var( --overlay-background);  
+    color:var(--off-white);
 }
