@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate&family=Vollkorn+SC:wght@600&display=swap');
-@import url(/Component/Text-Utilies/text-utilities.html);
-
 
 * {
     margin: 0;
@@ -17,11 +15,50 @@
     --primary-hover:#0F292B;
     --primary: #1A4549;
     --secondary:#f8fcfc;
-    --grey-text:#656663;
+    --text:#656663;
     --background:#767879;
     --example-bg:#F5F7F9;
     --overlay-background: #0b090ad0;
 }
+
+html {
+    font-size: 62.5%;
+  }
+ 
+body {
+    font-family: 'Mate', serif;
+    color:var(--text);
+
+}
+
+li{
+    list-style: none;
+    margin:1rem 0;
+    font-size:1.655rem;
+}
+
+.heading-1,.heading-2,hr{
+    color:var(--primary)
+}
+
+.heading-5{
+    font-weight: 400;
+}
+
+p{
+    text-align: justify;
+}
+
+
+ul{
+    margin:0.75rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+  }
 
 .container{
     width: 85%;
@@ -51,4 +88,19 @@
 }
 
 
+@media screen and (max-width : 640px){
+
+    html{
+        font-size:40%;
+    }
+
+}
+
+/* @media screen and (min-width : 1536px){
+
+    html{
+        font-size:150%;
+    }
+} 
+  */
 
