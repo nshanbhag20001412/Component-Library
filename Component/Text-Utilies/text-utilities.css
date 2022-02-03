@@ -26,17 +26,17 @@ body {
     text-align: center;
 }
 
-p{
+.para{
     text-align: justify;
 }
 
-li{
+.list{
     list-style: none;
     margin:1rem 0;
     font-size:1.655rem;
 }
 
-a {
+.link {
     text-decoration: none;
     cursor: pointer;
     color: inherit;
