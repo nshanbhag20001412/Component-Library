@@ -1,0 +1,39 @@
+@import url(/CSS/docs.css);
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+}
+
+.input-field{
+
+    padding:1.25rem;
+    border:none;
+    outline:  2px solid var(--primary);
+    font-weight: 600;
+    color: var(--text);
+    font-family: inherit;
+}
+
+.input-field-status{
+    padding:0.25rem;
+    font-size: 1.5rem;
+}
+
+.success{
+    color:var(--success);
+    outline-color: var(--success);
+}
+
+.error{
+    color:var(--error);
+    outline-color: var(--error);
+}
+
+.warning{
+    color:var(--warning);
+    outline-color:var(--warning);
+}
+
+
