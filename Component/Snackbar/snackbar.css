@@ -1,0 +1,26 @@
+@import url(/CSS/docs.css);
+
+.main-content-display{
+    height:15vh;
+    position: relative;
+}
+.snackbar{
+    display:inline-flex;
+    align-items: center;
+    gap:2rem;
+    background-color: var(--primary);
+    color:var(--off-white);
+    padding:8px;
+    border-radius: 4px;
+    position:absolute;
+}
+
+.snackbar-baseline{
+    bottom:0;
+    align-self: center;
+}
+
+.snackbar-leading{
+    bottom:0;
+    left: 0;
+}
