@@ -1,5 +1,9 @@
+
+@import url(/Component/Text-Utilies/text-utilities.css);
 @import url(/CSS/main.css);
 @import url(/CSS/nav.css);
+
+
 
 .doc-container{
     margin-top:2.25rem;
@@ -12,16 +16,23 @@
     font-size:1.25rem;
 }
 
+.side-bar-list{
+  margin:0.75rem;
+}
 .main-content{
-
+    display:flex;
+    flex-direction: column;
     width:98%;
     margin:1rem 0 0 auto ;
     height:inherit;
     font-size: 2rem;
+    gap:1rem;
+
 }
 
 .main-content-display{
     display: flex;
+    flex-direction: row;
     background-color: var(--background);
     border-radius: 4px;
     background-color: var(--example-bg);
