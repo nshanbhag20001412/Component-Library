@@ -19,7 +19,7 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
 ```html
     <link
         rel="stylesheet"
-        href="https://poshui-components.netlify.app/css/main.css"
+        href="https://integral-ui-cl.netlify.app/CSS/allstyles.css"
     />
 ```   
 
