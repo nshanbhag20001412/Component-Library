@@ -1,0 +1,12 @@
+@import url(/CSS/main.css);
+@import url(../Component/Alert/alert.css);
+@import url(../Component/Avatar/avatar.css);
+@import url(../Component/Badge/badge.css);
+@import url(../Component/button/button.css);
+@import url(../Component/cards/cards.css);
+@import url(../Component/Image/image.css);
+@import url(../Component/Input/input.css);
+@import url(../Component/List/list.css);
+@import url(../Component/Ratings/ratings.css);
+@import url(../Component/Snackbar/snackbar.css);
+
