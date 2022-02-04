@@ -24,6 +24,6 @@ Inside the component library you can find different components there preview and
 
 - You can mix and match the components by adding appropriate classes.
 
-- Detailed information about components can found under the specific components on the website or you can read it [here]().
+- Detailed information about components can found under the specific components on the website or you can read it [here](https://github.com/nshanbhag20001412/Component-Library/tree/development/Component).
 
 >Note : This component uses some [theme colors and fonts]() and some [text utilities]() for their components.
