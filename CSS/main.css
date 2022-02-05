@@ -1,73 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Mate&family=Vollkorn+SC:wght@600&display=swap');
 @import url(/Component/Text-Utilies/text-utilities.css);
 
-* {
-    margin: 0;
-    padding: 0;
-  }
-
-:root{
-    --error: #da2c38;
-    --warning: #ffaa00;
-    --success: #72b01d;
-    --blue: #1982c4ff;
-    --black:#0b090a;
-    --off-white: #F5F7F9;
-    --primary-hover:#0F292B;
-    --primary: #1A4549;
-    --primary-ghost: #0f464b71;
-    --secondary:#f8fcfc;
-    --text:#656663;
-    --background:#767879;
-    --example-bg:#F5F7F9;
-    --overlay-background: #0b090ad0;
-}
-
-
-.container{
-    width: 85%;
-    margin:auto;
-}
 
   .hero{
-      display:flex;
-      flex-direction: column;
-      margin:auto;
-      padding-top:9.5rem;
-      width:80%;
-      align-items: center;
-      font-size: 2.75rem;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    padding-top:9.5rem;
+    width:80%;
+    align-items: center;
+    font-size: 2.75rem;
 
-      
-  }
+    
+}
 
-  .hero-heading{
-      font-weight: 900;
-      text-align: center;
-  }
- .hero-para{
-     margin-top: 2rem;
-     text-align: center;
- }
+.hero-heading{
+    font-weight: 900;
+    text-align: center;
+}
+.hero-para{
+   margin-top: 2rem;
+   text-align: center;
+}
 .hero-buttons{
-    display:inherit;
-    margin:2rem;
+  display:inherit;
+  margin:2rem;
 }
-
-
-@media screen and (max-width : 640px){
-
-    html{
-        font-size:40%;
-    }
-
-}
-
-/* @media screen and (min-width : 1536px){
-
-    html{
-        font-size:150%;
-    }
-} 
-  */
 

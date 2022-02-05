@@ -1,9 +1,45 @@
-@import url(/CSS/docs.css);
+@import url('https://fonts.googleapis.com/css2?family=Mate&family=Vollkorn+SC:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+:root{
+    --error: #da2c38;
+    --warning: #ffaa00;
+    --success: #72b01d;
+    --blue: #1982c4ff;
+    --black:#0b090a;
+    --off-white: #F5F7F9;
+    --primary-hover:#0F292B;
+    --primary: #1A4549;
+    --primary-ghost: #0f464b71;
+    --secondary:#f8fcfc;
+    --text:#656663;
+    --background:#767879;
+    --example-bg:#F5F7F9;
+    --overlay-background: #0b090ad0;
+}
+
+
+.container{
+    width: 85%;
+    margin:auto;
+}
+
+
 
 html {
     font-size: 62.5%;
   }
- 
+
+html::-webkit-scrollbar {
+    
+    display: none;
+    
+
+}
+
 body {
     font-family: 'Mate', serif;
 }
@@ -58,6 +94,13 @@ body {
 
 }
 
+/* @media screen and (min-width : 1536px){
+
+    html{
+        font-size:150%;
+    }
+} 
+  */
 /* @media screen and (min-width : 1536px){
 
     html{

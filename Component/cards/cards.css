@@ -1,6 +1,4 @@
-@import url(/CSS/docs.css);
-@import url(/Component/button/button.css);
-@import url(/Component/Badge/badge.css);
+
 
 .card{
     height: max-content;
