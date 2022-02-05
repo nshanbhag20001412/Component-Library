@@ -1,6 +1,4 @@
 
-@import url(/CSS/docs.css);
-@import url(/Component/Avatar/avatar.css);
 .br-btm{
     border-bottom: 1px solid var(--primary);
 }
