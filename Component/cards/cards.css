@@ -54,6 +54,7 @@
 .card .btn{
     margin:1rem 0.25rem;
     line-height: 1rem;
+    cursor:pointer;
 }
 
 .card-footer{
